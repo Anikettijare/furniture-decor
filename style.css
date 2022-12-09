@@ -82,7 +82,6 @@
 }
 .head-img{
     width: 50%;
-    position: relative;
 }
 .head-img img{
     width: 100%;
@@ -436,6 +435,9 @@
     border-radius: 10px;
     border-color: rgb(170, 168, 168);
 }
+.chair-img{
+    z-index: -1;
+}
 .chair-img img{
     width: 100%;
     max-width: 380px;
@@ -479,9 +481,12 @@
     display: flex;
     justify-content: space-evenly;
 }
-.foot ul li{
+.foot ul li {
     list-style: none;
     padding: 10px;
+}
+.foot ul li a{
+    color: #2f2f2f;
 }
 .policy{
     display: flex;
