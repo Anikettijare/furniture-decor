@@ -27,10 +27,10 @@
     margin: 15px; 
 }
 .navbar ul li{
-    display: inline;
-    margin: 7px;
+    display: inline-block;
+    margin: 0px;
     font-size: 20px;
-    padding: 0px 12px;
+    padding: 0px 20px;
 }
 .navbar ul li a{
     color: rgb(211, 206, 206);
@@ -619,7 +619,7 @@ hr{
         text-align: center;
     }
 }
-@media (max-width:500px ){
+@media (max-width:600px ){
     .navbar h1 {
         margin-left: 13px;
     }
@@ -628,6 +628,7 @@ hr{
     }
     .menu-bar{
         display: block;
+        padding-right: 15px;
     }
     .head{
         padding: 0px 30px;
