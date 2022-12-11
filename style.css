@@ -8,7 +8,6 @@
 .container{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 .box1{
     background-color: #3b5d50;
@@ -34,7 +33,15 @@
     padding: 0px 12px;
 }
 .navbar ul li a{
-    color: rgb(180, 174, 174);
+    color: rgb(211, 206, 206);
+}
+.menu-bar{
+    font-size: 30px;
+    float:right;
+    display:none;
+}
+.menu-bar a i{
+    color: white;
 }
 .navbar ul li a:hover{
     text-decoration:  underline rgb(216, 216, 5);
@@ -485,7 +492,7 @@
 .foot{
     padding: 0px 38px;
 }
-.foot ul li {
+.foot ul li{
     list-style: none;
     padding: 10px;
 }
@@ -500,7 +507,7 @@
     margin: 10px 0px ;
     text-align: end;
 }
-.private1 ul {
+.private1 ul{
     display: inline-flex;
     list-style: none;
     margin-right: 75px;
@@ -514,14 +521,11 @@ hr{
     padding-bottom: 50px;
 }
 @media (max-width:900px){
-    .box1{
-        width: auto;
-    }
     .navbar h1 {
         margin-left: 40px;
     }
     .navbar ul{
-        margin: 8px;
+        margin: 0px;
         padding: 10px 0px;
     }
     .navbar ul li{
@@ -588,15 +592,15 @@ hr{
     .form1{
         width: 100%;
     }
-    .chair-img img {
+    .chair-img img{
         max-width: 380px;
         transform: translateY(-95px);
         margin-left: 0px;
     }
-    .testimonials .test1 p {
+    .testimonials .test1 p{
         padding: 0px 110px;
     }
-    .blog-head {
+    .blog-head{
         padding: 40px 28px;
     }
     .foot-info{
@@ -609,10 +613,83 @@ hr{
     .policy{
         display: block;
     }
-    .private1 {
+    .private1{
         width: 100%;
         margin: 10px 0px;
         text-align: center;
     }
-
+}
+@media (max-width:500px ){
+    .navbar ul{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
+    }
+    .head{
+        padding: 0px 30px;
+    }
+    .cards{
+        display: block;
+    }
+    .samp-cont {
+        padding: 75px 20px;
+    }
+    .shop{
+        padding: 10px;
+    }
+    .shop-img img{
+        width: 100%;
+        max-width: 270px;
+    }
+    .img-int1 img{
+        position: absolute;
+        max-width: 205px;
+        left: 30px;
+    }
+    .img-int2 img{
+        max-width: 125px;
+        left: 243px;
+    }
+    .img-int3 img{
+        max-width: 198px;
+        left: 170px;
+    }
+    .furniture{
+        display: block; 
+        margin-left: 6%;
+        padding: 30px 0px;
+    }
+    .testimonials .test1 p{
+        padding: 0px 40px;
+    }
+    .blog-head{
+        display: block;
+    }
+    .blog-info{
+        display: block;
+    }
+    .newsletter{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .form1 h4{
+        margin-left: 70px;
+    }
+    .form1 form{
+        text-align: justify;
+        margin-left: 70px;
+    }
+    .foot-head h1{
+        margin-left: 50px;
+        padding: 30px 0px;
+    }
+    .foot2{
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+    .private1 ul {
+        padding: 20px 0px;
+    }
 }
