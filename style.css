@@ -634,6 +634,7 @@ hr{
     }
     .cards{
         display: block;
+        margin: 20px;
     }
     .samp-cont {
         padding: 75px 20px;
