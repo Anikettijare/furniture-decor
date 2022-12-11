@@ -690,6 +690,7 @@ hr{
         padding: 10px;
     }
     .private1 ul {
+        margin-right: 0px;
         padding: 20px 0px;
     }
 }
