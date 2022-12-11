@@ -649,15 +649,15 @@ hr{
     .img-int1 img{
         position: absolute;
         max-width: 205px;
-        left: 30px;
+        left: 25px;
     }
     .img-int2 img{
-        max-width: 125px;
-        left: 243px;
+        max-width: 120px;
+        left: 234px;
     }
     .img-int3 img{
         max-width: 198px;
-        left: 170px;
+        left: 160px;
     }
     .furniture{
         display: block; 
