@@ -351,6 +351,18 @@
 .testimo-col{
     display: flex;
 }
+.test1{
+    width: 100%;
+    max-width: 800px;
+    background-color: rgb(238, 234, 234);
+    margin: 20px;
+    padding: 40px 0px;
+    border-radius: 50px;
+}
+.test1:hover{
+    transform: translateY(-20px);
+    transition: 0.5s ease-in-out;
+}
 .testimonials .test-head h1{
     text-align: center;
     padding: 35px 0px;
@@ -679,6 +691,9 @@ hr{
     }
     .testimo-col{
         display: block;
+    }
+    test1{
+        margin: 20px 0px;
     }
     .blog-head{
         display: block;
