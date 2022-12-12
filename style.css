@@ -348,12 +348,15 @@
 .box7{
     background-color: rgb(219 216 216 / 7%);
 }
+.testimo-col{
+    display: flex;
+}
 .testimonials .test-head h1{
     text-align: center;
     padding: 35px 0px;
 }
 .testimonials .test1 p{
-    padding: 0px 350px;
+    padding: 0px 40px;
     color: rgba(78, 77, 77, 0.6);
     text-align: center;
 }
@@ -619,8 +622,8 @@ hr{
         text-align: center;
     }
 }
-@media (max-width:600px ){
-    .navbar h1 {
+@media (max-width:600px){
+    .navbar h1{
         margin-left: 13px;
     }
     .navbar ul{
@@ -636,6 +639,9 @@ hr{
     .cards{
         display: block;
         margin: 20px;
+    }
+    .info-card {
+        padding: 0px;
     }
     .samp-cont {
         padding: 75px 20px;
