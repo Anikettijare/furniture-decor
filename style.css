@@ -637,7 +637,7 @@ hr{
         text-align: center;
     }
 }
-@media (max-width:600px){
+@media (max-width:700px){
     .navbar h1{
         margin-left: 13px;
     }
@@ -693,7 +693,8 @@ hr{
         display: block;
     }
     .test1{
-        margin: 20px 0px;
+        margin: 20px 12px;
+        width: 350px;
     }
     .blog-head{
         display: block;
