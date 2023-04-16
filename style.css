@@ -11,9 +11,10 @@
 }
 .box1{
     background-color: #3b5d50;
-    width: 100%;
-    height: 50px;
-    position: fixed;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .navbar h1{
     float: left;
@@ -565,7 +566,7 @@ hr{
         padding: 0px;
     }
     .con-info{
-        width: 95%;
+        width: 90%;
         padding: 20px 45px;
     }
     .con-card{
@@ -649,7 +650,8 @@ hr{
     }
     .menu-bar{
         display: block;
-        padding-right: 15px;
+        padding: 4px;
+        margin-right: 15px;
     }
     .head{
         padding: 0px 30px;
