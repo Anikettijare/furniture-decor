@@ -13,7 +13,7 @@
         <div class="box1">
             <div class="navbar">
                 <h1>Furni.</h1>
-                <ul>
+                <ul id="item_list" onclick="closeMenu()">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Shop</a></li>
                     <li><a href="#">About us</a></li>
@@ -22,10 +22,13 @@
                     <li><a href="#">Contact us</a></li>
                     <li><a class="circle" href="#"><i class="fa fa-user"></i></a></li>
                     <li><a class="circle" href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                    <li>
+                        <img src="images/close.jpeg" alt="close button">
+                    </li>
                 </ul>
-            </div>
-            <div class="menu-bar">
-                <a href="#"><i class="fa fa-bars"></i></a>
+                <div class="menu-bar" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
             </div>
         </div>
         <div class="box2">
@@ -357,5 +360,15 @@
             </div>
         </div>
     </div>
+
+    <script>
+        let menu = document.getElementById('item_list');
+        function openMenu(){
+            menu.style.top = '0px';
+        }
+        function closeMenu(){
+            menu.style.top = '-480px';
+        }
+    </script>
 </body>
 </html>
